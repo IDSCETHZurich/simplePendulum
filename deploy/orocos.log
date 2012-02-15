@@ -1,0 +1,1003 @@
+0.000 [ Info   ][Logger] No ORO_LOGLEVEL environment variable set.
+0.000 [ Info   ][Logger]  OROCOS version '2.5.0' compiled with GCC 4.4.3. Running in GNU/Linux.
+0.000 [ Info   ][Logger] Orocos Logging Activated at level : [ Warning] ( 4 ) 
+0.000 [ Info   ][Logger] Reference System Time is : 1329309883837388919 ticks ( 1.32931e+09 seconds ).
+0.000 [ Info   ][Logger] Logging is relative to this time.
+0.000 [ Info   ][Logger] Real-time memory: 517904 bytes free of 524288 allocated.
+0.000 [ Info   ][Logger] Setting OCL factory for real-time logging
+0.000 [ Info   ][Logger] No RTT_COMPONENT_PATH set. Using default: /opt/ros/electric/stacks/orocos_toolchain/install/lib/orocos
+0.000 [ Info   ][Logger] plugin 'rtt' not loaded before.
+0.000 [ Info   ][Logger] Loading plugin libraries from directory /opt/ros/electric/stacks/orocos_toolchain/install/lib/orocos/gnulinux/./plugins ...
+0.000 [ Info   ][Logger] Loaded RTT Service 'marshalling' from 'rtt-marshalling'
+0.000 [ Info   ][Logger] Loaded RTT Service 'scripting' from 'rtt-scripting'
+0.000 [ Info   ][Logger] typekit 'rtt' not loaded before.
+0.000 [ Info   ][Logger] Loading typekit libraries from directory /opt/ros/electric/stacks/orocos_toolchain/install/lib/orocos/gnulinux/./types ...
+0.001 [ Info   ][TypekitRepository::Import] Loading Transport mqueue://rtt-types.
+0.001 [ Info   ][Logger] Loaded RTT TypeKit/Transport 'rtt-mqueue-transport' from 'rtt-transport-mqueue'
+0.012 [ Info   ][TypekitRepository::Import] Loading Transport CORBA://rtt-types.
+0.012 [ Info   ][Logger] Loaded RTT TypeKit/Transport 'rtt-corba-types' from 'rtt-transport-corba'
+0.025 [ Info   ][TypekitRepository::Import] Loading Typekit rtt-types.
+0.025 [ Info   ][TypekitRepository::Import] Registered new 'mqueue' transport for int
+0.025 [ Info   ][TypekitRepository::Import] Registered new 'CORBA' transport for int
+0.025 [ Info   ][TypekitRepository::Import] Registered new 'mqueue' transport for uint
+0.025 [ Info   ][TypekitRepository::Import] Registered new 'CORBA' transport for uint
+0.025 [ Info   ][TypekitRepository::Import] Registered new 'mqueue' transport for double
+0.025 [ Info   ][TypekitRepository::Import] Registered new 'CORBA' transport for double
+0.025 [ Info   ][TypekitRepository::Import] Registered new 'mqueue' transport for float
+0.025 [ Info   ][TypekitRepository::Import] Registered new 'CORBA' transport for float
+0.025 [ Info   ][TypekitRepository::Import] Registered new 'mqueue' transport for char
+0.025 [ Info   ][TypekitRepository::Import] Registered new 'CORBA' transport for char
+0.025 [ Info   ][TypekitRepository::Import] Registered new 'mqueue' transport for bool
+0.025 [ Info   ][TypekitRepository::Import] Registered new 'CORBA' transport for bool
+0.025 [ Info   ][TypekitRepository::Import] Registered new 'CORBA' transport for void
+0.025 [ Info   ][TypekitRepository::Import] Registered new 'CORBA' transport for ConnPolicy
+0.025 [ Info   ][TypekitRepository::Import] Registered new 'CORBA' transport for TaskContext
+0.025 [ Info   ][TypekitRepository::Import] Registered new 'CORBA' transport for string
+0.025 [ Info   ][TypekitRepository::Import] Registered new 'mqueue' transport for array
+0.025 [ Info   ][TypekitRepository::Import] Registered new 'CORBA' transport for array
+0.025 [ Info   ][Logger] Loaded RTT TypeKit/Transport 'rtt-types' from 'rtt-typekit'
+0.025 [ Info   ][Thread] Creating Thread for scheduler=0, priority=0, CPU affinity=0, with name='Deployer'
+0.026 [ Info   ][Deployer] Thread created with scheduler type '0', priority 0, cpu affinity 255 and period 0.
+0.026 [ Info   ][Thread] Creating Thread for scheduler=0, priority=0, CPU affinity=0, with name='GlobalEngine'
+0.026 [ Info   ][GlobalEngine] Thread created with scheduler type '0', priority 0, cpu affinity 255 and period 0.
+0.026 [ Info   ][DeploymentComponent::configure] No RTT_COMPONENT_PATH set. Using default.
+0.026 [ Info   ][DeploymentComponent::configure] RTT_COMPONENT_PATH was set to /opt/ros/electric/stacks/orocos_toolchain/install/lib/orocos
+0.026 [ Info   ][DeploymentComponent::configure] Re-scanning for plugins and components...
+0.026 [ Info   ][DeploymentComponent::configure] Importing directory /opt/ros/electric/stacks/orocos_toolchain/install/lib/orocos ...
+0.026 [ Info   ][Logger] No site file was found. Importing 'ocl' by default.
+0.034 [ Warning][DeploymentComponent::import] The ROS package 'ocl' in '/opt/ros/electric/stacks/orocos_toolchain/ocl' nor its dependencies contained a lib/orocos directory. I'll look in the RTT_COMPONENT_PATH next.
+0.034 [ Info   ][DeploymentComponent::import] Importing directory /opt/ros/electric/stacks/orocos_toolchain/install/lib/orocos/gnulinux/ocl ...
+0.035 [ Info   ][DeploymentComponent::import] Loaded multi component library '/opt/ros/electric/stacks/orocos_toolchain/install/lib/orocos/gnulinux/ocl/liborocos-ocl-timer-gnulinux.so'
+0.036 [ Info   ][DeploymentComponent::import] Loaded multi component library '/opt/ros/electric/stacks/orocos_toolchain/install/lib/orocos/gnulinux/ocl/liborocos-ocl-reporting-gnulinux.so'
+0.038 [ Info   ][DeploymentComponent::import] Loaded component type 'OCL::HelloWorld'
+0.038 [ Info   ][DeploymentComponent::import] Loaded component type 'OCL::LuaComponent'
+0.039 [ Info   ][DeploymentComponent::import] Loaded multi component library '/opt/ros/electric/stacks/orocos_toolchain/install/lib/orocos/gnulinux/ocl/liborocos-ocl-common-gnulinux.so'
+0.040 [ Info   ][DeploymentComponent::import] Loaded multi component library '/opt/ros/electric/stacks/orocos_toolchain/install/lib/orocos/gnulinux/ocl/liborocos-ocl-logging-gnulinux.so'
+0.041 [ Info   ][DeploymentComponent::import] Loaded component type 'OCL::LuaTLSFComponent'
+0.041 [ Info   ][DeploymentComponent::import] Loading typekit libraries from directory /opt/ros/electric/stacks/orocos_toolchain/install/lib/orocos/gnulinux/ocl/types ...
+0.044 [ Info   ][TypekitRepository::Import] Loading Typekit OCLTypekit.
+0.044 [ Info   ][DeploymentComponent::import] Loaded RTT TypeKit/Transport 'OCLTypekit' from 'ocl'
+0.044 [ Info   ][DeploymentComponent::import] Loading plugin libraries from directory /opt/ros/electric/stacks/orocos_toolchain/install/lib/orocos/gnulinux/ocl/plugins ...
+0.045 [ Info   ][DeploymentComponent::import] Loaded RTT Service 'Lua' from 'rttlua-plugin'
+0.045 [ Info   ][DeploymentComponent::import] Loaded RTT Service 'LuaTLSF' from 'rttlua-tlsf-plugin'
+0.046 [ Info   ][DeploymentComponent::import] Loaded RTT Service 'print' from 'print'
+0.046 [ Info   ][DeploymentComponent::import] Loaded RTT Service 'os' from 'os'
+0.047 [ Info   ][DeploymentComponent::loadComponents] Loading 'TrajectoryGeneratorReal_cartPosInput.xml' in group 0.
+0.047 [ Info   ][DeploymentComponent::loadComponents] Validating new configuration...
+0.112 [ Info   ][DeploymentComponent::import] Importing directory /home/gajan/ros/stacks/trajectory-generator/lwr_fri/lib/orocos/gnulinux ...
+0.141 [ Info   ][DeploymentComponent::import] Loaded multi component library '/home/gajan/ros/stacks/trajectory-generator/lwr_fri/lib/orocos/gnulinux/liblwr_fri-gnulinux.so'
+0.141 [ Info   ][DeploymentComponent::import] Loaded component type 'lwr_fri::FRIComponent'
+0.165 [ Info   ][DeploymentComponent::import] Importing directory /opt/ros/electric/stacks/rtt_ros_integration/rtt_rosnode/lib/orocos/gnulinux ...
+0.165 [ Info   ][DeploymentComponent::import] Loading typekit libraries from directory /opt/ros/electric/stacks/rtt_ros_integration/rtt_rosnode/lib/orocos/gnulinux/types ...
+0.205 [ Info   ][TypekitRepository::Import] Loading Typekit ros-primitives.
+0.205 [ Info   ][TypekitRepository::Import] TypeInfo for type 'int32' already exists as 'int': I'll alias the original and install the new instance.
+0.205 [ Info   ][TypekitRepository::Import] TypeInfo for type 'int32[]' already exists as 'ints': I'll alias the original and install the new instance.
+0.206 [ Info   ][TypekitRepository::Import] TypeInfo for type 'uint32' already exists as 'uint': I'll alias the original and install the new instance.
+0.206 [ Info   ][TypekitRepository::Import] TypeInfo for type 'float32' already exists as 'float': I'll alias the original and install the new instance.
+0.206 [ Info   ][TypekitRepository::Import] TypeInfo for type 'float64' already exists as 'double': I'll alias the original and install the new instance.
+0.206 [ Info   ][TypekitRepository::Import] TypeInfo for type 'float64[]' already exists as 'array': I'll alias the original and install the new instance.
+0.206 [ Info   ][TypekitRepository::Import] Registered new 'CORBA' transport for string
+0.206 [ Info   ][TypekitRepository::Import] TypeInfo for type 'string[]' already exists as 'strings': I'll alias the original and install the new instance.
+0.206 [ Info   ][DeploymentComponent::import] Loaded RTT TypeKit/Transport 'ros-primitives' from 'rtt-ros-primitives-typekit'
+0.206 [ Info   ][DeploymentComponent::import] Loading plugin libraries from directory /opt/ros/electric/stacks/rtt_ros_integration/rtt_rosnode/lib/orocos/gnulinux/plugins ...
+0.207 [ Info   ][DeploymentComponent::import] Loaded RTT Service 'rosparam' from 'rtt_rosparam_service'
+0.209 [ Info   ][DeploymentComponent::import] Initializing ROS node
+0.216 [ Info   ][DeploymentComponent::import] ROS node spinner started
+0.216 [ Info   ][DeploymentComponent::import] Loaded RTT Service 'ros_integration' from 'rtt_rosnode'
+0.300 [ Info   ][DeploymentComponent::import] Importing directory /home/gajan/ros/stacks/trajectory-generator/trajectory_generator/lib/orocos/gnulinux ...
+0.306 [ Info   ][DeploymentComponent::import] Loaded multi component library '/home/gajan/ros/stacks/trajectory-generator/trajectory_generator/lib/orocos/gnulinux/libtrajectory_generator-gnulinux.so'
+0.330 [ Info   ][DeploymentComponent::import] Importing directory /opt/ros/electric/stacks/rtt_ros_comm/rtt_std_msgs/lib/orocos/gnulinux ...
+0.330 [ Info   ][DeploymentComponent::import] Loading typekit libraries from directory /opt/ros/electric/stacks/rtt_ros_comm/rtt_std_msgs/lib/orocos/gnulinux/types ...
+0.423 [ Info   ][TypekitRepository::Import] Loading Typekit ros-std_msgs.
+0.424 [ Info   ][DeploymentComponent::import] Loaded RTT TypeKit/Transport 'ros-std_msgs' from 'rtt-std_msgs-typekit'
+0.438 [ Info   ][TypekitRepository::Import] Loading Transport ros://ros-std_msgs.
+0.438 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /std_msgs/Bool
+0.438 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /std_msgs/Byte
+0.438 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /std_msgs/ByteMultiArray
+0.438 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /std_msgs/Char
+0.438 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /std_msgs/ColorRGBA
+0.438 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /std_msgs/Duration
+0.438 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /std_msgs/Empty
+0.438 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /std_msgs/Float32
+0.438 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /std_msgs/Float32MultiArray
+0.438 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /std_msgs/Float64
+0.439 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /std_msgs/Float64MultiArray
+0.439 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /std_msgs/Header
+0.439 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /std_msgs/Int16
+0.439 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /std_msgs/Int16MultiArray
+0.439 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /std_msgs/Int32
+0.439 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /std_msgs/Int32MultiArray
+0.439 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /std_msgs/Int64
+0.439 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /std_msgs/Int64MultiArray
+0.439 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /std_msgs/Int8
+0.439 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /std_msgs/Int8MultiArray
+0.439 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /std_msgs/MultiArrayDimension
+0.439 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /std_msgs/MultiArrayLayout
+0.439 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /std_msgs/String
+0.439 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /std_msgs/Time
+0.439 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /std_msgs/UInt16
+0.439 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /std_msgs/UInt16MultiArray
+0.439 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /std_msgs/UInt32
+0.439 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /std_msgs/UInt32MultiArray
+0.439 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /std_msgs/UInt64
+0.439 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /std_msgs/UInt64MultiArray
+0.439 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /std_msgs/UInt8
+0.439 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /std_msgs/UInt8MultiArray
+0.439 [ Info   ][DeploymentComponent::import] Loaded RTT TypeKit/Transport 'rtt-ros-std_msgs-transport' from 'rtt-std_msgs-ros-transport'
+0.485 [ Info   ][DeploymentComponent::import] Importing directory /opt/ros/electric/stacks/rtt_ros_comm/rtt_rosgraph_msgs/lib/orocos/gnulinux ...
+0.485 [ Info   ][DeploymentComponent::import] Loading typekit libraries from directory /opt/ros/electric/stacks/rtt_ros_comm/rtt_rosgraph_msgs/lib/orocos/gnulinux/types ...
+0.492 [ Info   ][TypekitRepository::Import] Loading Typekit ros-rosgraph_msgs.
+0.492 [ Info   ][DeploymentComponent::import] Loaded RTT TypeKit/Transport 'ros-rosgraph_msgs' from 'rtt-rosgraph_msgs-typekit'
+0.493 [ Info   ][TypekitRepository::Import] Loading Transport ros://ros-rosgraph_msgs.
+0.493 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /rosgraph_msgs/Clock
+0.493 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /rosgraph_msgs/Log
+0.493 [ Info   ][DeploymentComponent::import] Loaded RTT TypeKit/Transport 'rtt-ros-rosgraph_msgs-transport' from 'rtt-rosgraph_msgs-ros-transport'
+0.495 [ Info   ][DeploymentComponent::import] Importing directory /opt/ros/electric/stacks/rtt_common_msgs/rtt_geometry_msgs/lib/orocos/gnulinux ...
+0.495 [ Info   ][DeploymentComponent::import] Loading typekit libraries from directory /opt/ros/electric/stacks/rtt_common_msgs/rtt_geometry_msgs/lib/orocos/gnulinux/types ...
+0.565 [ Info   ][TypekitRepository::Import] Loading Typekit ros-geometry_msgs.
+0.565 [ Info   ][DeploymentComponent::import] Loaded RTT TypeKit/Transport 'ros-geometry_msgs' from 'rtt-geometry_msgs-typekit'
+0.577 [ Info   ][TypekitRepository::Import] Loading Transport ros://ros-geometry_msgs.
+0.577 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /geometry_msgs/Point
+0.577 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /geometry_msgs/Point32
+0.577 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /geometry_msgs/PointStamped
+0.577 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /geometry_msgs/Polygon
+0.577 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /geometry_msgs/PolygonStamped
+0.577 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /geometry_msgs/Pose
+0.577 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /geometry_msgs/Pose2D
+0.577 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /geometry_msgs/PoseArray
+0.577 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /geometry_msgs/PoseStamped
+0.577 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /geometry_msgs/PoseWithCovariance
+0.577 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /geometry_msgs/PoseWithCovarianceStamped
+0.577 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /geometry_msgs/Quaternion
+0.577 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /geometry_msgs/QuaternionStamped
+0.577 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /geometry_msgs/Transform
+0.577 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /geometry_msgs/TransformStamped
+0.577 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /geometry_msgs/Twist
+0.577 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /geometry_msgs/TwistStamped
+0.577 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /geometry_msgs/TwistWithCovariance
+0.577 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /geometry_msgs/TwistWithCovarianceStamped
+0.577 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /geometry_msgs/Vector3
+0.577 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /geometry_msgs/Vector3Stamped
+0.577 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /geometry_msgs/Wrench
+0.577 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /geometry_msgs/WrenchStamped
+0.577 [ Info   ][DeploymentComponent::import] Loaded RTT TypeKit/Transport 'rtt-ros-geometry_msgs-transport' from 'rtt-geometry_msgs-ros-transport'
+0.577 [ Info   ][DeploymentComponent::import] Importing directory /opt/ros/electric/stacks/rtt_common_msgs/rtt_sensor_msgs/lib/orocos/gnulinux ...
+0.577 [ Info   ][DeploymentComponent::import] Loading typekit libraries from directory /opt/ros/electric/stacks/rtt_common_msgs/rtt_sensor_msgs/lib/orocos/gnulinux/types ...
+0.632 [ Info   ][TypekitRepository::Import] Loading Typekit ros-sensor_msgs.
+0.633 [ Info   ][DeploymentComponent::import] Loaded RTT TypeKit/Transport 'ros-sensor_msgs' from 'rtt-sensor_msgs-typekit'
+0.642 [ Info   ][TypekitRepository::Import] Loading Transport ros://ros-sensor_msgs.
+0.642 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /sensor_msgs/CameraInfo
+0.642 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /sensor_msgs/ChannelFloat32
+0.642 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /sensor_msgs/CompressedImage
+0.642 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /sensor_msgs/Image
+0.642 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /sensor_msgs/Imu
+0.642 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /sensor_msgs/JointState
+0.642 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /sensor_msgs/Joy
+0.642 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /sensor_msgs/JoyFeedback
+0.642 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /sensor_msgs/JoyFeedbackArray
+0.642 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /sensor_msgs/LaserScan
+0.642 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /sensor_msgs/NavSatFix
+0.642 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /sensor_msgs/NavSatStatus
+0.642 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /sensor_msgs/PointCloud
+0.642 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /sensor_msgs/PointCloud2
+0.642 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /sensor_msgs/PointField
+0.642 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /sensor_msgs/Range
+0.642 [ Info   ][TypekitRepository::Import] Registered new 'ros' transport for /sensor_msgs/RegionOfInterest
+0.642 [ Info   ][DeploymentComponent::import] Loaded RTT TypeKit/Transport 'rtt-ros-sensor_msgs-transport' from 'rtt-sensor_msgs-ros-transport'
+0.642 [ Info   ][DeploymentComponent::import] Component package 'rtt_geometry_msgs' already imported.
+0.707 [ Info   ][DeploymentComponent::import] Importing directory /home/gajan/ros/stacks/trajectory-generator/kuka_IK/lib/orocos/gnulinux ...
+0.713 [ Info   ][DeploymentComponent::import] Loaded multi component library '/home/gajan/ros/stacks/trajectory-generator/kuka_IK/lib/orocos/gnulinux/libkuka_IK-gnulinux.so'
+0.713 [ Info   ][DeploymentComponent::import] Loaded component type 'kuka_IK::kuka_IK'
+0.769 [ Info   ][DeploymentComponent::import] Importing directory /home/gajan/ros/stacks/gajanLocal/simplePendulum/lib/orocos/gnulinux ...
+0.809 [ Info   ][DeploymentComponent::import] Loaded multi component library '/home/gajan/ros/stacks/gajanLocal/simplePendulum/lib/orocos/gnulinux/libsimplePendulum-gnulinux.so'
+0.811 [ Info   ][Thread] Creating Thread for scheduler=0, priority=0, CPU affinity=0, with name='pendControllerNoStart'
+0.811 [ Info   ][pendControllerNoStart] Thread created with scheduler type '0', priority 0, cpu affinity 255 and period 0.
+0.811 [ Info   ][DeploymentComponent::loadComponent] Adding pendControllerNoStart as new peer:  OK.
+0.811 [ Info   ][Thread] Creating Thread for scheduler=1, priority=1, CPU affinity=4294967295, with name='TimerThreadInstance'
+0.811 [ Info   ][TimerThreadInstance] Thread created with scheduler type '1', priority 1, cpu affinity 255 and period 0.02.
+0.812 [ Info   ][DeploymentComponent::loadComponents] Added component pendControllerNoStart to group 0
+0.813 [ Info   ][Thread] Creating Thread for scheduler=0, priority=0, CPU affinity=0, with name='pendFilter'
+0.813 [ Info   ][pendFilter] Thread created with scheduler type '0', priority 0, cpu affinity 255 and period 0.
+0.814 [ Info   ][DeploymentComponent::loadComponent] Adding pendFilter as new peer:  OK.
+0.814 [ Info   ][Thread] Creating Thread for scheduler=1, priority=1, CPU affinity=4294967295, with name='TimerThreadInstance'
+0.814 [ Info   ][TimerThreadInstance] Thread created with scheduler type '1', priority 1, cpu affinity 255 and period 0.0114.
+0.815 [ Info   ][DeploymentComponent::loadComponents] Added component pendFilter to group 0
+0.816 [ Info   ][Thread] Creating Thread for scheduler=0, priority=0, CPU affinity=0, with name='kukaIKComponent'
+0.816 [ Info   ][kukaIKComponent] Thread created with scheduler type '0', priority 0, cpu affinity 255 and period 0.
+0.816 [ Info   ][DeploymentComponent::loadComponent] Adding kukaIKComponent as new peer:  OK.
+0.816 [ Info   ][Thread] Creating Thread for scheduler=1, priority=1, CPU affinity=4294967295, with name='Activity'
+0.817 [ Info   ][Activity] Thread created with scheduler type '1', priority 1, cpu affinity 255 and period 0.
+0.817 [ Info   ][DeploymentComponent::loadComponents] Added component kukaIKComponent to group 0
+0.819 [ Info   ][Thread] Creating Thread for scheduler=0, priority=0, CPU affinity=0, with name='trajectoryGenerator'
+0.819 [ Info   ][trajectoryGenerator] Thread created with scheduler type '0', priority 0, cpu affinity 255 and period 0.
+0.819 [ Info   ][DeploymentComponent::loadComponent] Adding trajectoryGenerator as new peer:  OK.
+0.819 [ Info   ][Thread] Creating Thread for scheduler=1, priority=1, CPU affinity=4294967295, with name='Activity'
+0.819 [ Info   ][Activity] Thread created with scheduler type '1', priority 1, cpu affinity 255 and period 0.
+0.820 [ Info   ][DeploymentComponent::loadComponents] Added component trajectoryGenerator to group 0
+0.821 [ Info   ][Thread] Creating Thread for scheduler=0, priority=0, CPU affinity=0, with name='FRIServer'
+0.821 [ Info   ][FRIServer] Thread created with scheduler type '0', priority 0, cpu affinity 255 and period 0.
+0.822 [ Info   ][DeploymentComponent::loadComponent] Adding FRIServer as new peer:  OK.
+0.822 [ Info   ][Thread] Creating Thread for scheduler=1, priority=1, CPU affinity=4294967295, with name='Activity'
+0.823 [ Info   ][Activity] Thread created with scheduler type '1', priority 1, cpu affinity 255 and period 0.
+0.823 [ Info   ][DeploymentComponent::loadComponents] Added component FRIServer to group 0
+0.824 [ Info   ][Thread] Creating Thread for scheduler=0, priority=0, CPU affinity=0, with name='Reporter'
+0.825 [ Info   ][Reporter] Thread created with scheduler type '0', priority 0, cpu affinity 255 and period 0.
+0.825 [ Info   ][DeploymentComponent::loadComponent] Adding Reporter as new peer:  OK.
+0.825 [ Info   ][Thread] Creating Thread for scheduler=0, priority=0, CPU affinity=4294967295, with name='TimerThreadInstance'
+0.825 [ Info   ][TimerThreadInstance] Thread created with scheduler type '0', priority 0, cpu affinity 255 and period 0.02.
+0.826 [ Info   ][DeploymentComponent::loadComponents] Added component Reporter to group 0
+0.826 [ Info   ][DeploymentComponent::configureComponents] Configuring components in group 0
+0.826 [ Info   ][DeploymentComponent::configureComponents] Deployer connects FRIServer to trajectoryGenerator
+0.826 [ Info   ][DeploymentComponent::configureComponents] Deployer connects Reporter to trajectoryGenerator
+0.826 [ Info   ][DeploymentComponent::configureComponents] Deployer connects Reporter to FRIServer
+0.826 [ Info   ][DeploymentComponent::configureComponents] Component trajectoryGenerator's OutputPort JointPositionDes will write topic DesJointPosition
+0.826 [ Info   ][DeploymentComponent::configureComponents] Subscribed InputPort FRIServer.desJntPos to topic JointPositionDes/DesJointPosition
+0.826 [ Info   ][DeploymentComponent::configureComponents] Component kukaIKComponent's OutputPort JointPositionDes will write topic JntPosIn
+0.826 [ Info   ][DeploymentComponent::configureComponents] Subscribed InputPort trajectoryGenerator.JointPositionInput to topic JointPositionDes/JntPosIn
+0.826 [ Info   ][DeploymentComponent::configureComponents] Component FRIServer's OutputPort msrCartPos will write topic MsrCartPos
+0.826 [ Info   ][DeploymentComponent::configureComponents] Subscribed InputPort kukaIKComponent.msrCartPosPort to topic msrCartPos/MsrCartPos
+0.826 [ Info   ][DeploymentComponent::configureComponents] Component FRIServer's OutputPort msrJntPos will write topic MsrJointPosition2IK
+0.826 [ Info   ][DeploymentComponent::configureComponents] Subscribed InputPort kukaIKComponent.JointPositionMsr to topic msrJntPos/MsrJointPosition2IK
+0.826 [ Info   ][DeploymentComponent::configureComponents] Component FRIServer's OutputPort msrJntPos will write topic MsrJointPosition2TG
+0.827 [ Info   ][DeploymentComponent::configureComponents] Subscribed InputPort trajectoryGenerator.JointPositionMsr to topic msrJntPos/MsrJointPosition2TG
+0.829 [ Info   ][Thread] Creating Thread for scheduler=0, priority=0, CPU affinity=0, with name='RosPublishActivity'
+0.829 [ Info   ][RosPublishActivity] Thread created with scheduler type '0', priority 0, cpu affinity 255 and period 0.
+0.829 [ Info   ][DeploymentComponent::configureComponents] Created output stream for output port JointPositionDesToROS
+0.829 [ Info   ][DeploymentComponent::configureComponents] Component trajectoryGenerator's OutputPort JointPositionDesToROS will stream to joint_states
+0.831 [ Info   ][DeploymentComponent::configureComponents] Created input stream for input port PendProjPointInput
+0.831 [ Info   ][DeploymentComponent::configureComponents] Component pendFilter's InputPort PendProjPointInput will stream to pendPosFromROS
+0.831 [ Info   ][DeploymentComponent::configureComponents] Component FRIServer's OutputPort RobotData will write topic RobotDataConn
+0.831 [ Info   ][DeploymentComponent::configureComponents] Subscribed InputPort kukaIKComponent.RobotStatePort to topic RobotData/RobotDataConn
+0.831 [ Info   ][DeploymentComponent::configureComponents] Component pendControllerNoStart's OutputPort CartesianPoseOutput will write topic pendCont2KukaIK
+0.831 [ Info   ][DeploymentComponent::configureComponents] Subscribed InputPort kukaIKComponent.CartesianPoseInput to topic CartesianPoseOutput/pendCont2KukaIK
+0.831 [ Info   ][DeploymentComponent::configureComponents] Component pendFilter's OutputPort pendPosFiltered will write topic pendPos
+0.831 [ Info   ][DeploymentComponent::configureComponents] Subscribed InputPort pendControllerNoStart.pendPos_inputPort to topic pendPosFiltered/pendPos
+0.833 [ Info   ][DeploymentComponent::configureComponents] Created output stream for output port pendPosFiltered
+0.833 [ Info   ][DeploymentComponent::configureComponents] Component pendFilter's OutputPort pendPosFiltered will stream to pendPosToROS
+0.833 [ Info   ][DeploymentComponent::configureComponents] Component pendFilter's OutputPort pendVelFiltered will write topic pendVel
+0.833 [ Info   ][DeploymentComponent::configureComponents] Subscribed InputPort pendControllerNoStart.pendVel_inputPort to topic pendVelFiltered/pendVel
+0.833 [ Info   ][DeploymentComponent::configureComponents] Component FRIServer's OutputPort msrCartPos will write topic robotPose
+0.833 [ Info   ][DeploymentComponent::configureComponents] Subscribed InputPort pendControllerNoStart.robotPos_inputPort to topic msrCartPos/robotPose
+0.833 [ Info   ][DeploymentComponent::configureComponents] Re-setting activity of pendControllerNoStart
+0.833 [ Info   ][DeploymentComponent::configureComponents] Re-setting activity of pendFilter
+0.834 [ Info   ][DeploymentComponent::configureComponents] Re-setting activity of kukaIKComponent
+0.834 [ Info   ][PropertyLoader:configure] Configuring TaskContext 'trajectoryGenerator' with 'cpf/trajectoryGenerator.cpf'.
+0.854 [ Info   ][DeploymentComponent::configureComponents] Configured Properties of trajectoryGenerator from cpf/trajectoryGenerator.cpf
+0.854 [ Info   ][DeploymentComponent::configureComponents] Re-setting activity of trajectoryGenerator
+0.854 [ Info   ][PropertyLoader:load] Loading properties into TaskContext 'FRIServer' with 'cpf/FRIServer.cpf'.
+0.854 [ Info   ][DeploymentComponent::configureComponents] Configured Properties of FRIServer from cpf/FRIServer.cpf
+0.854 [ Info   ][DeploymentComponent::configureComponents] Re-setting activity of FRIServer
+0.854 [ Info   ][PropertyLoader:load] Loading properties into TaskContext 'Reporter' with 'cpf/reportingReal.cpf'.
+0.855 [ Info   ][DeploymentComponent::configureComponents] Configured Properties of Reporter from cpf/reportingReal.cpf
+0.855 [ Info   ][DeploymentComponent::configureComponents] Re-setting activity of Reporter
+0.855 [ Info   ][ReportingComponent] Not buffering of data flow connections. You may miss samples.
+0.855 [ Info   ][ReportingComponent] Monitoring OutputPort JointPositionDes : ok.
+0.855 [ Info   ][ReportingComponent] Not buffering of data flow connections. You may miss samples.
+0.855 [ Info   ][ReportingComponent] Monitoring OutputPort msrJntTrq : ok.
+0.855 [ Info   ][ReportingComponent] Not buffering of data flow connections. You may miss samples.
+0.855 [ Info   ][ReportingComponent] Monitoring OutputPort msrJntPos : ok.
+0.855 [ Info   ][DeploymentComponent::configureComponents] Configuration successful for group 0.
+0.859 [ Info   ][DeploymentComponent::startComponentsGroup] Startup of 'AutoStart' components successful for group 0.
+0.859 [ Info   ][Logger] Successfully loaded, configured and started components from TrajectoryGeneratorReal_cartPosInput.xml
+0.859 [ Info   ][Thread] Creating Thread for scheduler=0, priority=0, CPU affinity=0, with name='TaskBrowser'
+0.859 [ Info   ][TaskBrowser] Thread created with scheduler type '0', priority 0, cpu affinity 255 and period 0.
+0.859 [ Info   ][Logger] Entering Task Deployer
+8.394 [ Info   ][Logger] 9.59e-07
+8.403 [ Info   ][Logger] 0.00847638
+8.403 [ Info   ][Logger] 0.00855756
+8.413 [ Info   ][Logger] 0.0183512
+8.413 [ Info   ][Logger] 0.0183995
+8.423 [ Info   ][Logger] 0.02844
+8.423 [ Info   ][Logger] 0.0285156
+8.433 [ Info   ][Logger] 0.0384413
+8.433 [ Info   ][Logger] 0.0385173
+8.443 [ Info   ][Logger] 0.0484772
+8.443 [ Info   ][Logger] 0.0485636
+8.453 [ Info   ][Logger] 0.0584488
+8.453 [ Info   ][Logger] 0.0585246
+8.463 [ Info   ][Logger] 0.0683018
+8.463 [ Info   ][Logger] 0.0683887
+8.473 [ Info   ][Logger] 0.0784443
+8.473 [ Info   ][Logger] 0.0785203
+8.483 [ Info   ][Logger] 0.0883534
+8.483 [ Info   ][Logger] 0.0884292
+8.493 [ Info   ][Logger] 0.0985321
+8.493 [ Info   ][Logger] 0.0986023
+8.503 [ Info   ][Logger] 0.108495
+8.503 [ Info   ][Logger] 0.108575
+8.513 [ Info   ][Logger] 0.118509
+8.513 [ Info   ][Logger] 0.118585
+8.523 [ Info   ][Logger] 0.128375
+8.523 [ Info   ][Logger] 0.128453
+8.533 [ Info   ][Logger] 0.138481
+8.533 [ Info   ][Logger] 0.138557
+8.543 [ Info   ][Logger] 0.148384
+8.543 [ Info   ][Logger] 0.14846
+8.553 [ Info   ][Logger] 0.158445
+8.553 [ Info   ][Logger] 0.158521
+8.563 [ Info   ][Logger] 0.168415
+8.563 [ Info   ][Logger] 0.168496
+8.573 [ Info   ][Logger] 0.178452
+8.573 [ Info   ][Logger] 0.178528
+8.583 [ Info   ][Logger] 0.188448
+8.583 [ Info   ][Logger] 0.188524
+8.593 [ Info   ][Logger] 0.198447
+8.593 [ Info   ][Logger] 0.198523
+8.603 [ Info   ][Logger] 0.208349
+8.603 [ Info   ][Logger] 0.208421
+8.613 [ Info   ][Logger] 0.218473
+8.613 [ Info   ][Logger] 0.218548
+8.623 [ Info   ][Logger] 0.228384
+8.623 [ Info   ][Logger] 0.228462
+8.633 [ Info   ][Logger] 0.238478
+8.633 [ Info   ][Logger] 0.238554
+8.643 [ Info   ][Logger] 0.248302
+8.643 [ Info   ][Logger] 0.248378
+8.653 [ Info   ][Logger] 0.258451
+8.653 [ Info   ][Logger] 0.258527
+8.663 [ Info   ][Logger] 0.268321
+8.663 [ Info   ][Logger] 0.268398
+8.673 [ Info   ][Logger] 0.278433
+8.673 [ Info   ][Logger] 0.27851
+8.683 [ Info   ][Logger] 0.288423
+8.683 [ Info   ][Logger] 0.288498
+8.693 [ Info   ][Logger] 0.298461
+8.693 [ Info   ][Logger] 0.298537
+8.703 [ Info   ][Logger] 0.308485
+8.703 [ Info   ][Logger] 0.30856
+8.713 [ Info   ][Logger] 0.318501
+8.713 [ Info   ][Logger] 0.318577
+8.723 [ Info   ][Logger] 0.328485
+8.723 [ Info   ][Logger] 0.328561
+8.733 [ Info   ][Logger] 0.3385
+8.733 [ Info   ][Logger] 0.338593
+8.743 [ Info   ][Logger] 0.348474
+8.743 [ Info   ][Logger] 0.34855
+8.753 [ Info   ][Logger] 0.358489
+8.753 [ Info   ][Logger] 0.358565
+8.763 [ Info   ][Logger] 0.368486
+8.763 [ Info   ][Logger] 0.368566
+8.773 [ Info   ][Logger] 0.378464
+8.773 [ Info   ][Logger] 0.378542
+8.783 [ Info   ][Logger] 0.388397
+8.783 [ Info   ][Logger] 0.388482
+8.793 [ Info   ][Logger] 0.398451
+8.793 [ Info   ][Logger] 0.398527
+8.803 [ Info   ][Logger] 0.40849
+8.803 [ Info   ][Logger] 0.408566
+8.813 [ Info   ][Logger] 0.418495
+8.813 [ Info   ][Logger] 0.418571
+8.823 [ Info   ][Logger] 0.42849
+8.823 [ Info   ][Logger] 0.428566
+8.833 [ Info   ][Logger] 0.43849
+8.833 [ Info   ][Logger] 0.438566
+8.843 [ Info   ][Logger] 0.448488
+8.843 [ Info   ][Logger] 0.448566
+8.853 [ Info   ][Logger] 0.458492
+8.853 [ Info   ][Logger] 0.45857
+8.863 [ Info   ][Logger] 0.468488
+8.863 [ Info   ][Logger] 0.468563
+8.873 [ Info   ][Logger] 0.478512
+8.873 [ Info   ][Logger] 0.478594
+8.883 [ Info   ][Logger] 0.488443
+8.883 [ Info   ][Logger] 0.488519
+8.893 [ Info   ][Logger] 0.498453
+8.893 [ Info   ][Logger] 0.498528
+8.903 [ Info   ][Logger] 0.508516
+8.903 [ Info   ][Logger] 0.508592
+8.913 [ Info   ][Logger] 0.51851
+8.913 [ Info   ][Logger] 0.518586
+8.923 [ Info   ][Logger] 0.528423
+8.923 [ Info   ][Logger] 0.528499
+8.933 [ Info   ][Logger] 0.538528
+8.933 [ Info   ][Logger] 0.538604
+8.943 [ Info   ][Logger] 0.548401
+8.943 [ Info   ][Logger] 0.54848
+8.953 [ Info   ][Logger] 0.558501
+8.953 [ Info   ][Logger] 0.558579
+8.963 [ Info   ][Logger] 0.568496
+8.963 [ Info   ][Logger] 0.568574
+8.973 [ Info   ][Logger] 0.578487
+8.973 [ Info   ][Logger] 0.578563
+8.983 [ Info   ][Logger] 0.588495
+8.983 [ Info   ][Logger] 0.588571
+8.993 [ Info   ][Logger] 0.598507
+8.993 [ Info   ][Logger] 0.598586
+9.003 [ Info   ][Logger] 0.608461
+9.003 [ Info   ][Logger] 0.608532
+9.013 [ Info   ][Logger] 0.618516
+9.013 [ Info   ][Logger] 0.618592
+9.023 [ Info   ][Logger] 0.628511
+9.023 [ Info   ][Logger] 0.628588
+9.033 [ Info   ][Logger] 0.638531
+9.033 [ Info   ][Logger] 0.638611
+9.043 [ Info   ][Logger] 0.648498
+9.043 [ Info   ][Logger] 0.648576
+9.053 [ Info   ][Logger] 0.658448
+9.053 [ Info   ][Logger] 0.658518
+9.063 [ Info   ][Logger] 0.668514
+9.063 [ Info   ][Logger] 0.668592
+9.073 [ Info   ][Logger] 0.678493
+9.073 [ Info   ][Logger] 0.678572
+9.083 [ Info   ][Logger] 0.688406
+9.083 [ Info   ][Logger] 0.688485
+9.093 [ Info   ][Logger] 0.698469
+9.093 [ Info   ][Logger] 0.698545
+9.103 [ Info   ][Logger] 0.708438
+9.103 [ Info   ][Logger] 0.708514
+9.113 [ Info   ][Logger] 0.718502
+9.113 [ Info   ][Logger] 0.718578
+9.123 [ Info   ][Logger] 0.728502
+9.123 [ Info   ][Logger] 0.728577
+9.133 [ Info   ][Logger] 0.738548
+9.133 [ Info   ][Logger] 0.738626
+9.143 [ Info   ][Logger] 0.748503
+9.143 [ Info   ][Logger] 0.748581
+9.153 [ Info   ][Logger] 0.758507
+9.153 [ Info   ][Logger] 0.758583
+9.163 [ Info   ][Logger] 0.768509
+9.163 [ Info   ][Logger] 0.768584
+9.173 [ Info   ][Logger] 0.778576
+9.173 [ Info   ][Logger] 0.778651
+9.183 [ Info   ][Logger] 0.78844
+9.183 [ Info   ][Logger] 0.788517
+9.193 [ Info   ][Logger] 0.798493
+9.193 [ Info   ][Logger] 0.79857
+9.203 [ Info   ][Logger] 0.808502
+9.203 [ Info   ][Logger] 0.808577
+9.213 [ Info   ][Logger] 0.818488
+9.213 [ Info   ][Logger] 0.818525
+9.223 [ Info   ][Logger] 0.828531
+9.223 [ Info   ][Logger] 0.828607
+9.233 [ Info   ][Logger] 0.838533
+9.233 [ Info   ][Logger] 0.838609
+9.243 [ Info   ][Logger] 0.848412
+9.243 [ Info   ][Logger] 0.848488
+9.253 [ Info   ][Logger] 0.858476
+9.253 [ Info   ][Logger] 0.858552
+9.263 [ Info   ][Logger] 0.868474
+9.263 [ Info   ][Logger] 0.86855
+9.273 [ Info   ][Logger] 0.878479
+9.273 [ Info   ][Logger] 0.878554
+9.283 [ Info   ][Logger] 0.888415
+9.283 [ Info   ][Logger] 0.88849
+9.293 [ Info   ][Logger] 0.898517
+9.293 [ Info   ][Logger] 0.898592
+9.303 [ Info   ][Logger] 0.908475
+9.303 [ Info   ][Logger] 0.908554
+9.313 [ Info   ][Logger] 0.918479
+9.313 [ Info   ][Logger] 0.918555
+9.323 [ Info   ][Logger] 0.928478
+9.323 [ Info   ][Logger] 0.928553
+9.333 [ Info   ][Logger] 0.938477
+9.333 [ Info   ][Logger] 0.938554
+9.343 [ Info   ][Logger] 0.948447
+9.343 [ Info   ][Logger] 0.948536
+9.353 [ Info   ][Logger] 0.95848
+9.353 [ Info   ][Logger] 0.958556
+9.363 [ Info   ][Logger] 0.968484
+9.364 [ Info   ][Logger] 0.969065
+9.373 [ Info   ][Logger] 0.978479
+9.373 [ Info   ][Logger] 0.978555
+9.383 [ Info   ][Logger] 0.988481
+9.383 [ Info   ][Logger] 0.988556
+9.393 [ Info   ][Logger] 0.998512
+9.393 [ Info   ][Logger] 0.998587
+9.403 [ Info   ][Logger] 1.00851
+9.403 [ Info   ][Logger] 1.00859
+9.413 [ Info   ][Logger] 1.01852
+9.413 [ Info   ][Logger] 1.0186
+9.423 [ Info   ][Logger] 1.02857
+9.423 [ Info   ][Logger] 1.02864
+9.433 [ Info   ][Logger] 1.03851
+9.433 [ Info   ][Logger] 1.03859
+9.443 [ Info   ][Logger] 1.0484
+9.443 [ Info   ][Logger] 1.04847
+9.453 [ Info   ][Logger] 1.05849
+9.453 [ Info   ][Logger] 1.05856
+9.463 [ Info   ][Logger] 1.06848
+9.463 [ Info   ][Logger] 1.06856
+9.473 [ Info   ][Logger] 1.07848
+9.473 [ Info   ][Logger] 1.07856
+9.483 [ Info   ][Logger] 1.0884
+9.483 [ Info   ][Logger] 1.08847
+9.493 [ Info   ][Logger] 1.09848
+9.493 [ Info   ][Logger] 1.09856
+9.503 [ Info   ][Logger] 1.10846
+9.503 [ Info   ][Logger] 1.10853
+9.513 [ Info   ][Logger] 1.11852
+9.513 [ Info   ][Logger] 1.11859
+9.523 [ Info   ][Logger] 1.12848
+9.523 [ Info   ][Logger] 1.12856
+9.533 [ Info   ][Logger] 1.13849
+9.533 [ Info   ][Logger] 1.13856
+9.543 [ Info   ][Logger] 1.14842
+9.543 [ Info   ][Logger] 1.14849
+9.553 [ Info   ][Logger] 1.15843
+9.553 [ Info   ][Logger] 1.15849
+9.563 [ Info   ][Logger] 1.16846
+9.563 [ Info   ][Logger] 1.16854
+9.573 [ Info   ][Logger] 1.17846
+9.573 [ Info   ][Logger] 1.17852
+9.583 [ Info   ][Logger] 1.18842
+9.583 [ Info   ][Logger] 1.1885
+9.593 [ Info   ][Logger] 1.1985
+9.593 [ Info   ][Logger] 1.19857
+9.603 [ Info   ][Logger] 1.20846
+9.603 [ Info   ][Logger] 1.20853
+9.613 [ Info   ][Logger] 1.21852
+9.613 [ Info   ][Logger] 1.21859
+9.623 [ Info   ][Logger] 1.22856
+9.623 [ Info   ][Logger] 1.22865
+9.633 [ Info   ][Logger] 1.23853
+9.633 [ Info   ][Logger] 1.2386
+9.643 [ Info   ][Logger] 1.24843
+9.643 [ Info   ][Logger] 1.2485
+9.653 [ Info   ][Logger] 1.2585
+9.653 [ Info   ][Logger] 1.25858
+9.663 [ Info   ][Logger] 1.26842
+9.663 [ Info   ][Logger] 1.26849
+9.673 [ Info   ][Logger] 1.27853
+9.673 [ Info   ][Logger] 1.2786
+9.683 [ Info   ][Logger] 1.28849
+9.683 [ Info   ][Logger] 1.28857
+9.693 [ Info   ][Logger] 1.29849
+9.693 [ Info   ][Logger] 1.29857
+9.703 [ Info   ][Logger] 1.30857
+9.703 [ Info   ][Logger] 1.30864
+9.713 [ Info   ][Logger] 1.31854
+9.713 [ Info   ][Logger] 1.31861
+9.723 [ Info   ][Logger] 1.32861
+9.723 [ Info   ][Logger] 1.32869
+9.733 [ Info   ][Logger] 1.33858
+9.733 [ Info   ][Logger] 1.33865
+9.743 [ Info   ][Logger] 1.34849
+9.743 [ Info   ][Logger] 1.34858
+9.753 [ Info   ][Logger] 1.35858
+9.753 [ Info   ][Logger] 1.35862
+9.763 [ Info   ][Logger] 1.36837
+9.763 [ Info   ][Logger] 1.36844
+9.773 [ Info   ][Logger] 1.37849
+9.773 [ Info   ][Logger] 1.37857
+9.783 [ Info   ][Logger] 1.38842
+9.783 [ Info   ][Logger] 1.38849
+9.793 [ Info   ][Logger] 1.39849
+9.793 [ Info   ][Logger] 1.39857
+9.803 [ Info   ][Logger] 1.40844
+9.803 [ Info   ][Logger] 1.40851
+9.813 [ Info   ][Logger] 1.4185
+9.813 [ Info   ][Logger] 1.41857
+9.823 [ Info   ][Logger] 1.42848
+9.823 [ Info   ][Logger] 1.42855
+9.833 [ Info   ][Logger] 1.43854
+9.833 [ Info   ][Logger] 1.43862
+9.843 [ Info   ][Logger] 1.44855
+9.843 [ Info   ][Logger] 1.44863
+9.853 [ Info   ][Logger] 1.45853
+9.853 [ Info   ][Logger] 1.45861
+9.863 [ Info   ][Logger] 1.46853
+9.863 [ Info   ][Logger] 1.46861
+9.873 [ Info   ][Logger] 1.47853
+9.873 [ Info   ][Logger] 1.4786
+9.883 [ Info   ][Logger] 1.48844
+9.883 [ Info   ][Logger] 1.48851
+9.893 [ Info   ][Logger] 1.49851
+9.893 [ Info   ][Logger] 1.49859
+9.903 [ Info   ][Logger] 1.50842
+9.903 [ Info   ][Logger] 1.50849
+9.913 [ Info   ][Logger] 1.51853
+9.913 [ Info   ][Logger] 1.51861
+9.923 [ Info   ][Logger] 1.52844
+9.923 [ Info   ][Logger] 1.52852
+9.933 [ Info   ][Logger] 1.53857
+9.933 [ Info   ][Logger] 1.53865
+9.943 [ Info   ][Logger] 1.54854
+9.943 [ Info   ][Logger] 1.54862
+9.953 [ Info   ][Logger] 1.55855
+9.953 [ Info   ][Logger] 1.55862
+9.963 [ Info   ][Logger] 1.56854
+9.963 [ Info   ][Logger] 1.56861
+9.973 [ Info   ][Logger] 1.57853
+9.973 [ Info   ][Logger] 1.57861
+9.983 [ Info   ][Logger] 1.58839
+9.983 [ Info   ][Logger] 1.58846
+9.993 [ Info   ][Logger] 1.59852
+9.993 [ Info   ][Logger] 1.5986
+10.003 [ Info   ][Logger] 1.60846
+10.003 [ Info   ][Logger] 1.60854
+10.013 [ Info   ][Logger] 1.61855
+10.013 [ Info   ][Logger] 1.61863
+10.023 [ Info   ][Logger] 1.62854
+10.023 [ Info   ][Logger] 1.62862
+10.033 [ Info   ][Logger] 1.63858
+10.033 [ Info   ][Logger] 1.63865
+10.043 [ Info   ][Logger] 1.64854
+10.043 [ Info   ][Logger] 1.64862
+10.053 [ Info   ][Logger] 1.65853
+10.053 [ Info   ][Logger] 1.65861
+10.063 [ Info   ][Logger] 1.66845
+10.063 [ Info   ][Logger] 1.66852
+10.073 [ Info   ][Logger] 1.67854
+10.073 [ Info   ][Logger] 1.67862
+10.083 [ Info   ][Logger] 1.68844
+10.083 [ Info   ][Logger] 1.68852
+10.093 [ Info   ][Logger] 1.69852
+10.093 [ Info   ][Logger] 1.69859
+10.103 [ Info   ][Logger] 1.70851
+10.103 [ Info   ][Logger] 1.70858
+10.113 [ Info   ][Logger] 1.71856
+10.113 [ Info   ][Logger] 1.71864
+10.123 [ Info   ][Logger] 1.72854
+10.123 [ Info   ][Logger] 1.72862
+10.133 [ Info   ][Logger] 1.73861
+10.133 [ Info   ][Logger] 1.73868
+10.143 [ Info   ][Logger] 1.74847
+10.143 [ Info   ][Logger] 1.74855
+10.153 [ Info   ][Logger] 1.75857
+10.153 [ Info   ][Logger] 1.75865
+10.163 [ Info   ][Logger] 1.76845
+10.163 [ Info   ][Logger] 1.76853
+10.173 [ Info   ][Logger] 1.77856
+10.173 [ Info   ][Logger] 1.77864
+10.183 [ Info   ][Logger] 1.78846
+10.183 [ Info   ][Logger] 1.78854
+10.193 [ Info   ][Logger] 1.79854
+10.193 [ Info   ][Logger] 1.79863
+10.203 [ Info   ][Logger] 1.80848
+10.203 [ Info   ][Logger] 1.80856
+10.213 [ Info   ][Logger] 1.81858
+10.213 [ Info   ][Logger] 1.81865
+10.223 [ Info   ][Logger] 1.82846
+10.223 [ Info   ][Logger] 1.82853
+10.233 [ Info   ][Logger] 1.83852
+10.233 [ Info   ][Logger] 1.83859
+10.243 [ Info   ][Logger] 1.84847
+10.243 [ Info   ][Logger] 1.84855
+10.253 [ Info   ][Logger] 1.85852
+10.253 [ Info   ][Logger] 1.85859
+10.263 [ Info   ][Logger] 1.86845
+10.263 [ Info   ][Logger] 1.86852
+10.273 [ Info   ][Logger] 1.87843
+10.273 [ Info   ][Logger] 1.87851
+10.283 [ Info   ][Logger] 1.88846
+10.283 [ Info   ][Logger] 1.88853
+10.293 [ Info   ][Logger] 1.89858
+10.293 [ Info   ][Logger] 1.89865
+10.303 [ Info   ][Logger] 1.90846
+10.303 [ Info   ][Logger] 1.90854
+10.313 [ Info   ][Logger] 1.91855
+10.313 [ Info   ][Logger] 1.91863
+10.323 [ Info   ][Logger] 1.92845
+10.323 [ Info   ][Logger] 1.92853
+10.333 [ Info   ][Logger] 1.9385
+10.333 [ Info   ][Logger] 1.93858
+10.343 [ Info   ][Logger] 1.94845
+10.343 [ Info   ][Logger] 1.94853
+10.353 [ Info   ][Logger] 1.95844
+10.353 [ Info   ][Logger] 1.95853
+10.363 [ Info   ][Logger] 1.96846
+10.363 [ Info   ][Logger] 1.96853
+10.373 [ Info   ][Logger] 1.97853
+10.373 [ Info   ][Logger] 1.97861
+10.383 [ Info   ][Logger] 1.98845
+10.383 [ Info   ][Logger] 1.98853
+10.393 [ Info   ][Logger] 1.99856
+10.393 [ Info   ][Logger] 1.99864
+10.403 [ Info   ][Logger] 2.00847
+10.403 [ Info   ][Logger] 2.00854
+10.413 [ Info   ][Logger] 2.01851
+10.413 [ Info   ][Logger] 2.01859
+10.423 [ Info   ][Logger] 2.02856
+10.423 [ Info   ][Logger] 2.02864
+10.433 [ Info   ][Logger] 2.03857
+10.433 [ Info   ][Logger] 2.03864
+10.443 [ Info   ][Logger] 2.04855
+10.443 [ Info   ][Logger] 2.04862
+10.453 [ Info   ][Logger] 2.05856
+10.453 [ Info   ][Logger] 2.05863
+10.463 [ Info   ][Logger] 2.06856
+10.463 [ Info   ][Logger] 2.06864
+10.473 [ Info   ][Logger] 2.07856
+10.473 [ Info   ][Logger] 2.07863
+10.483 [ Info   ][Logger] 2.08847
+10.483 [ Info   ][Logger] 2.08854
+10.493 [ Info   ][Logger] 2.09857
+10.493 [ Info   ][Logger] 2.09865
+10.503 [ Info   ][Logger] 2.10847
+10.503 [ Info   ][Logger] 2.10854
+10.513 [ Info   ][Logger] 2.11856
+10.513 [ Info   ][Logger] 2.11864
+10.523 [ Info   ][Logger] 2.12855
+10.523 [ Info   ][Logger] 2.12863
+10.533 [ Info   ][Logger] 2.13856
+10.533 [ Info   ][Logger] 2.13863
+10.543 [ Info   ][Logger] 2.14856
+10.543 [ Info   ][Logger] 2.14864
+10.553 [ Info   ][Logger] 2.15857
+10.553 [ Info   ][Logger] 2.15865
+10.563 [ Info   ][Logger] 2.16855
+10.563 [ Info   ][Logger] 2.16863
+10.573 [ Info   ][Logger] 2.17857
+10.573 [ Info   ][Logger] 2.17864
+10.583 [ Info   ][Logger] 2.18854
+10.583 [ Info   ][Logger] 2.18862
+10.593 [ Info   ][Logger] 2.19854
+10.593 [ Info   ][Logger] 2.19862
+10.603 [ Info   ][Logger] 2.20856
+10.603 [ Info   ][Logger] 2.20864
+10.613 [ Info   ][Logger] 2.21856
+10.613 [ Info   ][Logger] 2.21865
+10.623 [ Info   ][Logger] 2.22857
+10.623 [ Info   ][Logger] 2.22864
+10.633 [ Info   ][Logger] 2.23857
+10.633 [ Info   ][Logger] 2.23865
+10.643 [ Info   ][Logger] 2.24857
+10.643 [ Info   ][Logger] 2.24865
+10.653 [ Info   ][Logger] 2.25857
+10.653 [ Info   ][Logger] 2.25865
+10.663 [ Info   ][Logger] 2.26861
+10.663 [ Info   ][Logger] 2.26868
+10.673 [ Info   ][Logger] 2.27857
+10.673 [ Info   ][Logger] 2.27865
+10.683 [ Info   ][Logger] 2.28847
+10.683 [ Info   ][Logger] 2.28855
+10.693 [ Info   ][Logger] 2.29854
+10.693 [ Info   ][Logger] 2.29862
+10.703 [ Info   ][Logger] 2.30854
+10.703 [ Info   ][Logger] 2.30862
+10.713 [ Info   ][Logger] 2.31857
+10.713 [ Info   ][Logger] 2.31865
+10.723 [ Info   ][Logger] 2.32856
+10.723 [ Info   ][Logger] 2.32864
+10.733 [ Info   ][Logger] 2.33858
+10.733 [ Info   ][Logger] 2.33866
+10.743 [ Info   ][Logger] 2.34859
+10.743 [ Info   ][Logger] 2.34867
+10.753 [ Info   ][Logger] 2.35859
+10.753 [ Info   ][Logger] 2.35867
+10.763 [ Info   ][Logger] 2.3686
+10.763 [ Info   ][Logger] 2.36869
+10.773 [ Info   ][Logger] 2.37859
+10.773 [ Info   ][Logger] 2.37867
+10.783 [ Info   ][Logger] 2.38848
+10.783 [ Info   ][Logger] 2.38855
+10.793 [ Info   ][Logger] 2.39854
+10.793 [ Info   ][Logger] 2.39862
+10.803 [ Info   ][Logger] 2.40855
+10.803 [ Info   ][Logger] 2.40862
+10.813 [ Info   ][Logger] 2.41858
+10.813 [ Info   ][Logger] 2.41866
+10.823 [ Info   ][Logger] 2.42854
+10.823 [ Info   ][Logger] 2.42862
+10.833 [ Info   ][Logger] 2.43858
+10.833 [ Info   ][Logger] 2.43866
+10.843 [ Info   ][Logger] 2.44869
+10.843 [ Info   ][Logger] 2.44876
+10.853 [ Info   ][Logger] 2.45857
+10.853 [ Info   ][Logger] 2.45864
+10.863 [ Info   ][Logger] 2.46858
+10.863 [ Info   ][Logger] 2.46865
+10.873 [ Info   ][Logger] 2.47853
+10.873 [ Info   ][Logger] 2.47861
+10.883 [ Info   ][Logger] 2.48852
+10.883 [ Info   ][Logger] 2.4886
+10.893 [ Info   ][Logger] 2.49855
+10.893 [ Info   ][Logger] 2.49863
+10.903 [ Info   ][Logger] 2.50848
+10.903 [ Info   ][Logger] 2.50856
+10.913 [ Info   ][Logger] 2.51855
+10.913 [ Info   ][Logger] 2.51863
+10.923 [ Info   ][Logger] 2.52851
+10.923 [ Info   ][Logger] 2.52859
+10.933 [ Info   ][Logger] 2.53862
+10.933 [ Info   ][Logger] 2.53869
+10.943 [ Info   ][Logger] 2.54857
+10.943 [ Info   ][Logger] 2.54865
+10.953 [ Info   ][Logger] 2.55858
+10.953 [ Info   ][Logger] 2.55866
+10.963 [ Info   ][Logger] 2.56859
+10.963 [ Info   ][Logger] 2.56867
+10.973 [ Info   ][Logger] 2.57858
+10.973 [ Info   ][Logger] 2.57866
+10.983 [ Info   ][Logger] 2.5885
+10.983 [ Info   ][Logger] 2.58858
+10.993 [ Info   ][Logger] 2.59855
+10.993 [ Info   ][Logger] 2.59863
+11.003 [ Info   ][Logger] 2.60855
+11.003 [ Info   ][Logger] 2.60863
+11.013 [ Info   ][Logger] 2.61859
+11.013 [ Info   ][Logger] 2.61866
+11.023 [ Info   ][Logger] 2.62858
+11.023 [ Info   ][Logger] 2.62865
+11.033 [ Info   ][Logger] 2.63863
+11.033 [ Info   ][Logger] 2.6387
+11.043 [ Info   ][Logger] 2.6486
+11.043 [ Info   ][Logger] 2.64867
+11.053 [ Info   ][Logger] 2.65859
+11.053 [ Info   ][Logger] 2.65867
+11.063 [ Info   ][Logger] 2.66859
+11.063 [ Info   ][Logger] 2.66867
+11.073 [ Info   ][Logger] 2.67858
+11.073 [ Info   ][Logger] 2.67866
+11.083 [ Info   ][Logger] 2.68855
+11.083 [ Info   ][Logger] 2.68863
+11.093 [ Info   ][Logger] 2.69857
+11.093 [ Info   ][Logger] 2.69864
+11.103 [ Info   ][Logger] 2.70856
+11.103 [ Info   ][Logger] 2.70864
+11.113 [ Info   ][Logger] 2.71859
+11.113 [ Info   ][Logger] 2.71867
+11.123 [ Info   ][Logger] 2.72853
+11.123 [ Info   ][Logger] 2.7286
+11.133 [ Info   ][Logger] 2.7386
+11.133 [ Info   ][Logger] 2.73867
+11.143 [ Info   ][Logger] 2.74859
+11.143 [ Info   ][Logger] 2.74867
+11.153 [ Info   ][Logger] 2.75859
+11.153 [ Info   ][Logger] 2.75867
+11.163 [ Info   ][Logger] 2.76858
+11.163 [ Info   ][Logger] 2.76866
+11.173 [ Info   ][Logger] 2.77861
+11.173 [ Info   ][Logger] 2.77868
+11.183 [ Info   ][Logger] 2.78847
+11.183 [ Info   ][Logger] 2.78855
+11.193 [ Info   ][Logger] 2.79861
+11.193 [ Info   ][Logger] 2.79869
+11.203 [ Info   ][Logger] 2.80856
+11.203 [ Info   ][Logger] 2.80863
+11.213 [ Info   ][Logger] 2.81862
+11.213 [ Info   ][Logger] 2.8187
+11.223 [ Info   ][Logger] 2.82855
+11.223 [ Info   ][Logger] 2.82863
+11.233 [ Info   ][Logger] 2.83862
+11.233 [ Info   ][Logger] 2.8387
+11.243 [ Info   ][Logger] 2.84862
+11.243 [ Info   ][Logger] 2.8487
+11.253 [ Info   ][Logger] 2.85862
+11.253 [ Info   ][Logger] 2.85869
+11.263 [ Info   ][Logger] 2.86862
+11.263 [ Info   ][Logger] 2.86869
+11.273 [ Info   ][Logger] 2.87862
+11.273 [ Info   ][Logger] 2.8787
+11.283 [ Info   ][Logger] 2.8885
+11.283 [ Info   ][Logger] 2.88858
+11.293 [ Info   ][Logger] 2.89857
+11.293 [ Info   ][Logger] 2.89864
+11.303 [ Info   ][Logger] 2.90857
+11.303 [ Info   ][Logger] 2.90865
+11.313 [ Info   ][Logger] 2.9186
+11.313 [ Info   ][Logger] 2.91867
+11.323 [ Info   ][Logger] 2.92859
+11.323 [ Info   ][Logger] 2.92866
+11.333 [ Info   ][Logger] 2.93857
+11.333 [ Info   ][Logger] 2.93866
+11.343 [ Info   ][Logger] 2.9486
+11.343 [ Info   ][Logger] 2.94868
+11.353 [ Info   ][Logger] 2.9586
+11.353 [ Info   ][Logger] 2.95867
+11.363 [ Info   ][Logger] 2.96861
+11.363 [ Info   ][Logger] 2.96868
+11.373 [ Info   ][Logger] 2.9786
+11.373 [ Info   ][Logger] 2.97867
+11.383 [ Info   ][Logger] 2.9885
+11.383 [ Info   ][Logger] 2.98858
+11.393 [ Info   ][Logger] 2.9986
+11.393 [ Info   ][Logger] 2.99868
+11.403 [ Info   ][Logger] 3.0086
+11.403 [ Info   ][Logger] 3.00868
+11.413 [ Info   ][Logger] 3.01868
+11.413 [ Info   ][Logger] 3.01876
+11.423 [ Info   ][Logger] 3.0286
+11.423 [ Info   ][Logger] 3.02868
+11.433 [ Info   ][Logger] 3.03861
+11.433 [ Info   ][Logger] 3.03868
+11.443 [ Info   ][Logger] 3.0485
+11.443 [ Info   ][Logger] 3.04857
+11.453 [ Info   ][Logger] 3.05861
+11.453 [ Info   ][Logger] 3.05869
+11.463 [ Info   ][Logger] 3.06857
+11.463 [ Info   ][Logger] 3.06864
+11.473 [ Info   ][Logger] 3.0786
+11.473 [ Info   ][Logger] 3.07868
+11.483 [ Info   ][Logger] 3.08851
+11.483 [ Info   ][Logger] 3.08858
+11.493 [ Info   ][Logger] 3.09862
+11.493 [ Info   ][Logger] 3.09869
+11.503 [ Info   ][Logger] 3.10857
+11.503 [ Info   ][Logger] 3.10865
+11.513 [ Info   ][Logger] 3.11861
+11.513 [ Info   ][Logger] 3.11869
+11.523 [ Info   ][Logger] 3.1286
+11.523 [ Info   ][Logger] 3.12868
+11.533 [ Info   ][Logger] 3.1386
+11.533 [ Info   ][Logger] 3.13868
+11.543 [ Info   ][Logger] 3.14861
+11.543 [ Info   ][Logger] 3.14868
+11.553 [ Info   ][Logger] 3.15863
+11.553 [ Info   ][Logger] 3.1587
+11.563 [ Info   ][Logger] 3.16857
+11.563 [ Info   ][Logger] 3.16866
+11.573 [ Info   ][Logger] 3.17861
+11.573 [ Info   ][Logger] 3.17869
+11.583 [ Info   ][Logger] 3.18852
+11.583 [ Info   ][Logger] 3.18859
+11.593 [ Info   ][Logger] 3.19862
+11.593 [ Info   ][Logger] 3.19869
+11.603 [ Info   ][Logger] 3.20864
+11.603 [ Info   ][Logger] 3.20871
+11.613 [ Info   ][Logger] 3.21861
+11.613 [ Info   ][Logger] 3.21868
+11.623 [ Info   ][Logger] 3.22855
+11.623 [ Info   ][Logger] 3.22863
+11.633 [ Info   ][Logger] 3.23862
+11.633 [ Info   ][Logger] 3.2387
+11.643 [ Info   ][Logger] 3.24857
+11.643 [ Info   ][Logger] 3.24865
+11.653 [ Info   ][Logger] 3.25861
+11.653 [ Info   ][Logger] 3.25869
+11.663 [ Info   ][Logger] 3.26855
+11.663 [ Info   ][Logger] 3.26863
+11.673 [ Info   ][Logger] 3.27858
+11.673 [ Info   ][Logger] 3.27865
+11.683 [ Info   ][Logger] 3.28852
+11.683 [ Info   ][Logger] 3.2886
+11.693 [ Info   ][Logger] 3.29862
+11.693 [ Info   ][Logger] 3.2987
+11.703 [ Info   ][Logger] 3.30862
+11.703 [ Info   ][Logger] 3.3087
+11.713 [ Info   ][Logger] 3.31862
+11.713 [ Info   ][Logger] 3.31869
+11.723 [ Info   ][Logger] 3.32861
+11.723 [ Info   ][Logger] 3.32869
+11.733 [ Info   ][Logger] 3.33863
+11.733 [ Info   ][Logger] 3.33871
+11.743 [ Info   ][Logger] 3.34861
+11.743 [ Info   ][Logger] 3.34869
+11.753 [ Info   ][Logger] 3.35862
+11.753 [ Info   ][Logger] 3.3587
+11.763 [ Info   ][Logger] 3.36861
+11.763 [ Info   ][Logger] 3.36868
+11.773 [ Info   ][Logger] 3.37854
+11.773 [ Info   ][Logger] 3.37862
+11.783 [ Info   ][Logger] 3.38854
+11.783 [ Info   ][Logger] 3.38862
+11.793 [ Info   ][Logger] 3.39864
+11.793 [ Info   ][Logger] 3.39871
+11.803 [ Info   ][Logger] 3.40856
+11.803 [ Info   ][Logger] 3.40863
+11.813 [ Info   ][Logger] 3.41864
+11.813 [ Info   ][Logger] 3.41872
+11.822 [ Info   ][DeploymentComponent::stopComponentsGroup] Stopping group 1
+11.822 [ Info   ][DeploymentComponent::cleanupComponentsGroup] Cleaning up group 1
+11.822 [ Info   ][Logger] Unloading group 1
+11.822 [ Info   ][Logger] Kick-out of group 1 successful.
+11.822 [ Info   ][DeploymentComponent::stopComponentsGroup] Stopping group 0
+11.823 [ Info   ][DeploymentComponent::stopComponentsGroup] 3.42863
+11.823 [ Info   ][DeploymentComponent::stopComponentsGroup] 3.42871
+11.823 [ Info   ][DeploymentComponent::stopComponentsGroup] Stopped FRIServer
+11.824 [ Info   ][DeploymentComponent::stopComponentsGroup] Stopped Reporter
+11.824 [ Info   ][DeploymentComponent::stopComponentsGroup] Stopped kukaIKComponent
+11.824 [ Info   ][DeploymentComponent::stopComponentsGroup] Stopped pendControllerNoStart
+11.824 [ Info   ][DeploymentComponent::stopComponentsGroup] Stopped pendFilter
+11.824 [ Info   ][DeploymentComponent::stopComponentsGroup] Stopped trajectoryGenerator
+11.824 [ Info   ][DeploymentComponent::cleanupComponentsGroup] Cleaning up group 0
+11.824 [ Info   ][DeploymentComponent::cleanupComponentsGroup] Cleaned up FRIServer
+11.824 [ Info   ][PropertyLoader::save] Reporter updating of file cpf/reportingReal.cpf
+11.825 [ Info   ][PropertyLoader::save] Writing all properties of Reporter to file cpf/reportingReal.cpf
+11.826 [ Info   ][PropertyLoader::save] Wrote cpf/reportingReal.cpf
+11.826 [ Info   ][DeploymentComponent::cleanupComponentsGroup] Refusing to save property file that was not loaded for Reporter
+11.826 [ Info   ][DeploymentComponent::cleanupComponentsGroup] Cleaned up Reporter
+11.826 [ Info   ][DeploymentComponent::cleanupComponentsGroup] Cleaned up kukaIKComponent
+11.826 [ Info   ][DeploymentComponent::cleanupComponentsGroup] Cleaned up pendControllerNoStart
+11.826 [ Info   ][DeploymentComponent::cleanupComponentsGroup] Cleaned up pendFilter
+11.826 [ Info   ][DeploymentComponent::cleanupComponentsGroup] Cleaned up trajectoryGenerator
+11.826 [ Info   ][Logger] Unloading group 0
+11.827 [ Info   ][Logger] Disconnected and destroyed FRIServer
+11.835 [ Info   ][Logger] Disconnected and destroyed Reporter
+11.836 [ Info   ][Logger] Disconnected and destroyed kukaIKComponent
+11.854 [ Info   ][Logger] Disconnected and destroyed pendControllerNoStart
+11.858 [ Info   ][Logger] Disconnected and destroyed pendFilter
+11.858 [ Info   ][RosPublishActivity] RosPublishActivity cleans up: no more work.
+11.860 [ Info   ][Logger] Disconnected and destroyed trajectoryGenerator
+11.860 [ Info   ][Logger] Kick-out of group 0 successful.
+11.861 [ Info   ][Logger] Orocos Logging Deactivated.
